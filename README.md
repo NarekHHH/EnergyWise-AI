@@ -1,8 +1,15 @@
 # Traffic-Controller
-Narek:
 🚦 TRAFFIC CONTROLLER
 
-AI-Powered Intelligent Traffic Management System
+AI-Powered Intelligent Traffic Management System:
+
+<p align="center">
+<img 
+src="assets/5458666372956104684.jpg"
+alt="Traffic Controller Banner"
+width="100%"
+/>
+</p>
 
 <p align="center">
 An intelligent traffic management system powered by Computer Vision and Artificial Intelligence.
