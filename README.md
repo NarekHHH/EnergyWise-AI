@@ -1,49 +1,116 @@
 # Traffic-Controller
-🚦 TRAFFIC CONTROLLER
+Narek:
+🚦 TRAFFIC CONTROLLER
+
 AI-Powered Intelligent Traffic Management System
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=220&section=header&text=TRAFFIC%20CONTROLLER&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Smarter%20Traffic%2C%20Better%20Cities&descAlignY=58&descSize=18" width="100%" />
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Project-AI%20%26%20Computer%20Vision-blue?style=for-the-badge" />
+An intelligent traffic management system powered by Computer Vision and Artificial Intelligence.
+<br>
+Designed to analyze traffic conditions and optimize traffic light timing.
+</p><p align="center">
 <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/AI-Machine%20Learning-purple?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Computer-Vision-green?style=for-the-badge" />
+</p>---
 
-🌍 About The Project
+📌 About The Project
 
-Traffic Controller is an intelligent traffic management system designed to analyze road traffic, detect congestion, and optimize traffic light timing using Computer Vision and Artificial Intelligence.
+Traffic Controller is an AI-powered project designed to improve urban traffic management.
 
-The project aims to improve urban mobility by analyzing vehicle flow and dynamically adjusting traffic light signals to reduce waiting times, traffic congestion, and unnecessary vehicle emissions.
+The system analyzes traffic videos, detects and tracks vehicles, evaluates traffic density, and uses intelligent algorithms to determine more efficient traffic light timing.
 
-🎯 Project Objectives
-🚗 Vehicle Detection — Detect vehicles using Computer Vision.
-🔍 Object Tracking — Track individual vehicles across video frames.
-📊 Traffic Analysis — Analyze traffic density and queue lengths.
-🧠 AI Optimization — Use AI to recommend optimal traffic light timing.
-🚦 Smart Traffic Control — Improve traffic flow through adaptive signal management.
-🌐 Multi-Intersection Management — Explore coordinated traffic control across multiple intersections.
-⚙️ Technologies
+The main idea is to move away from fixed traffic light schedules and introduce an adaptive system that responds to real-time traffic conditions.
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,opencv,pytorch,fastapi,html,css,js,git,github" />
-</p>
+🎯 Project Goals
 
-Technology	Purpose
-Python	Main programming language
-YOLO	Vehicle detection
-OpenCV	Video processing
-ByteTrack	Object tracking
-SUMO	Traffic simulation
-TraCI	Python-SUMO communication
-Reinforcement Learning	Intelligent traffic optimization
-FastAPI	Backend development
-HTML / CSS / JavaScript	Website development
+- 🚗 Vehicle Detection — Identify vehicles using Computer Vision.
+- 📊 Traffic Analysis — Analyze vehicle density, movement, and traffic flow.
+- 🧠 Intelligent Decision Making — Develop an AI model that recommends optimal traffic light timing.
+- 🚦 Traffic Optimization — Reduce unnecessary waiting times and improve traffic flow.
+- 🌍 Environmental Impact — Help reduce congestion, fuel consumption, and unnecessary emissions.
 
-The technology stack may change during development.
+🛠️ Technologies
+
+Technology| Purpose
+Python| Main programming language
+OpenCV| Video processing
+YOLO| Vehicle detection
+Deep SORT| Object tracking
+NumPy| Numerical calculations
+Pandas| Data analysis
+PyTorch| Neural network development
+SUMO| Traffic simulation
 
 🏗️ System Architecture
-
 Video Input → Vehicle Detection → Object Tracking → Traffic Analysis → AI Model → Traffic Light Control
+
+📂 Datasets
+
+The project will use publicly available traffic datasets for training, testing, and evaluation.
+
+- NGSIM — Real-world vehicle trajectories and traffic data.
+- CityFlow — Large-scale urban traffic data.
+- INTERACTION — Interactive driving scenarios.
+- highD — Vehicle trajectories from highway recordings.
+
+⚙️ How It Works
+
+1. Video Input — The system receives traffic footage.
+2. Vehicle Detection — AI detects vehicles in the video.
+3. Object Tracking — Vehicles are tracked across frames.
+4. Traffic Analysis — Traffic density and movement are evaluated.
+5. AI Decision Making — The model determines suitable traffic light timing.
+6. Simulation & Evaluation — The proposed decisions are tested and compared with traditional traffic control methods.
+
+📈 Expected Results
+
+The project aims to demonstrate that adaptive traffic light control can improve traffic efficiency.
+
+Key evaluation metrics:
+
+- Average vehicle waiting time.
+- Average travel time.
+- Traffic throughput.
+- Vehicle queue length.
+- Overall traffic congestion.
+
+🗺️ Project Roadmap
+
+- [ ] Research and dataset collection
+- [ ] Data analysis and preprocessing
+- [ ] Vehicle detection and tracking
+- [ ] Traffic density estimation
+- [ ] AI model development
+- [ ] Traffic simulation
+- [ ] Model training and optimization
+- [ ] Web interface development
+- [ ] Testing and evaluation
+- [ ] Final presentation
+
+🖥️ Demo & Screenshots
+
+Screenshots and demonstration videos will be added as the project develops.
+
+<p align="center">
+<i>Coming Soon...</i>
+</p>🚀 Project Status
+
+<blockquote>
+<b>Currently in Development</b>
+<br>
+This project is under active development. New features, experiments, and improvements will be added throughout the development process.
+</blockquote>👥 Contributors
+
+Project developed by:
+
+- NeuroTraffic AI— Project Developer
+
+---
+
+<p align="center">
+<b>TRAFFIC CONTROLLER</b>
+<br>
+Building smarter roads through Artificial Intelligence. 🚦
+</p>
