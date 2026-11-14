@@ -51,6 +51,7 @@ PyTorch| Neural network development
 SUMO| Traffic simulation
 
 🏗️ System Architecture
+
 Video Input → Vehicle Detection → Object Tracking → Traffic Analysis → AI Model → Traffic Light Control
 
 📂 Datasets
